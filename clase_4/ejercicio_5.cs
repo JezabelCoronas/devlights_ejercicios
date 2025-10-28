@@ -16,7 +16,7 @@ class Ejercicio5
         }
 
         // Mostrar la matriz
-        Console.WriteLine("📦 Matriz 5x5 con 'P' y 'I':\n");
+        Console.WriteLine(" Matriz 5x5 con 'P' y 'I':\n");
         for (int fila = 0; fila < 5; fila++)
         {
             for (int columna = 0; columna < 5; columna++)

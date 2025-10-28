@@ -23,7 +23,7 @@ class Ejercicio7
         }
 
         // Mostrar la matriz
-        Console.WriteLine("📊 Tablas de multiplicar del 1 al 9:\n");
+        Console.WriteLine(" Tablas de multiplicar del 1 al 9:\n");
         for (int fila = 0; fila < 10; fila++)
         {
             for (int columna = 0; columna < 10; columna++)

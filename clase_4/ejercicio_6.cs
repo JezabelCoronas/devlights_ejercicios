@@ -56,12 +56,12 @@ class Ejercicio6
             }
 
             double promedio = (double)sumaSemana / 7;
-            Console.WriteLine($"\n📅 Semana {semana + 1}:");
-            Console.WriteLine($"🔥 Máxima: {tempMaxSemana}°C el {dias[diaMax]}");
-            Console.WriteLine($"❄️ Mínima: {tempMinSemana}°C el {dias[diaMin]}");
-            Console.WriteLine($"📊 Promedio: {promedio:F2}°C");
+            Console.WriteLine($"\n Semana {semana + 1}:");
+            Console.WriteLine($" Máxima: {tempMaxSemana}°C el {dias[diaMax]}");
+            Console.WriteLine($"Mínima: {tempMinSemana}°C el {dias[diaMin]}");
+            Console.WriteLine($" Promedio: {promedio:F2}°C");
         }
 
-        Console.WriteLine($"\n🌡️ Temperatura más alta del mes: {tempMaxMes}°C el {diaMaxMes} (Semana {semanaMaxMes})");
+        Console.WriteLine($"\n Temperatura más alta del mes: {tempMaxMes}°C el {diaMaxMes} (Semana {semanaMaxMes})");
     }
 }
